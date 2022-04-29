@@ -27,7 +27,7 @@ namespace Inventory.Models
         public decimal? CurrentOrFinalPrice { get; set; }
 
         public int? CategoryId { get; set; }
-        public virtual Category Category { get; set; }
+        public virtual Category? Category { get; set; }
 
         public virtual List<Player> Players { get; set; } = new List<Player>();
 
